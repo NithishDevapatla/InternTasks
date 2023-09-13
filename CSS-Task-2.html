@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .vertical-navbar {
+            width: 200px;
+            background-color: gray;
+            position: fixed;
+            height: auto;
+            overflow: auto;
+            font-color: rgb(178, 34, 34);
+            margin-top: 10px;
+
+        }
+        .vertical-navbar a {
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .vertical-navbar a.active {
+            background-color: orange;
+            color: #fff;
+        }
+        .vertical-navbar a:hover {
+            background-color: yellow;
+            color: black;
+        }
+        .vertical-navbar a.active:hover{
+            background-color: violet;
+            color: black;
+        }
+        .horizontal-navbar {
+            display: flex;
+            width: auto;
+            background-color: lightgreen;
+            position: fixed;
+            height: 10%;
+            overflow: auto;
+            color: black;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+        .horizontal-navbar a {
+            padding: 10px 6px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+        }
+        .horizontal-navbar a.active {
+            background-color: gray;
+            color: #fff;
+        }
+        .horizontal-navbar a.active:hover{
+            background-color: orange;
+            color: black;
+        }
+        .horizontal-navbar a:hover {
+            background-color: orange;
+            color: black;
+        }
+        .p1{
+            margin-left: 0px;
+            margin-top: 0px;
+            font-size: 25px;
+        }
+        .p2{
+            margin-left: 300px;
+            margin-top: 0px;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="p1"">
+        <p>Vertical-Navigation Bar</p>
+    </div>
+
+<div class="vertical-navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">Java</a>
+    <a href="#">CSS</a>
+    <a href="#">HTML</a>
+    <a href="#">Bootstrap</a>
+</div>
+<div class="p2"">
+    <p>Horizontal-Navigation Bar</p>
+    <div class="horizontal-navbar">
+        <a href="#" class="active">Home</a>
+    <a href="#">Java</a>
+    <a href="#">CSS</a>
+    <a href="#">HTML</a>
+    <a href="#">Bootstrap</a>
+</div>
+
+
+
+</body>
+</html>

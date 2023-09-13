@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        body{
+            background-color:cornsilk ;
+        }
+        .container{
+            margin-top: 100px;
+            margin-left: 180px;
+            margin-right: 300px;
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: lightblue;
+            height: 320px;
+        }
+        #page{
+            background-color: lightyellow;
+            padding:3px;
+            border-right: 10px solid gray;
+            margin:10px;
+            margin-left: 100px;
+            width:34%;
+        }
+        .link{
+            margin-top:42px;
+        }
+        #page a{
+            text-decoration: none;
+        }
+        .date{
+            border:1px dashed black;
+            margin-right: 500px;
+        }
+        .content{
+            margin-left: 20px;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="link">
+            <div id="page"><a href="#">Home Page</a></div>
+            <div id="page"><a href="#">Musings</a></div>
+            <div id="page"><a href="#">My town</a></div>
+            <div id="page"><a href="#">Links</a></div>
+        </div>
+        <div class="content">
+            <header>
+            <h1>My first styled page</h1>
+            </header>
+            <p>Welcome to my first styled page</p>
+            <p>It lacks images, but it has been style. And it has links, even if they redirect to anywhere.</p>
+            <p>There should be more here, but I don't know advanced methods yet.</p>
+            <p class="date">Made on september 6th 2023 by me.</p>
+        </div>
+    </div>
+</body>
+</html>
